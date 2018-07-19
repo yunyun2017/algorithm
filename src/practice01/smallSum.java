@@ -1,4 +1,4 @@
-package sortAndApp01;
+package practice01;
 
 /**
  * 归并排序的应用问题：

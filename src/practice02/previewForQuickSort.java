@@ -1,4 +1,4 @@
-package sortAndApp02;
+package practice02;
 
 /**
  * 快排的一个预习练习：

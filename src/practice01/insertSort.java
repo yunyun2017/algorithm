@@ -1,4 +1,4 @@
-package sortAndApp01;
+package practice01;
 
 /**
  * 插入排序，实际应用中还有用处，而冒泡和选择排序现在实际应用中基本已不用了

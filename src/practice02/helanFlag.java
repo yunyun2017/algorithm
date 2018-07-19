@@ -1,6 +1,4 @@
-package sortAndApp02;
-
-import sun.reflect.generics.tree.VoidDescriptor;
+package practice02;
 
 /**
  * 荷兰国旗问题：

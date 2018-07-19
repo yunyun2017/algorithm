@@ -1,4 +1,4 @@
-package sortAndApp01;
+package practice01;
 
 /**
  * 选择排序

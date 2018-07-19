@@ -1,4 +1,4 @@
-package sortAndApp02;
+package practice02;
 
 /**
  * 经典快排：

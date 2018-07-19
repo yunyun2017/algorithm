@@ -59,4 +59,16 @@ public class GetMin_Stack {
         return this.min.peek();
     }
 
+    public static void main(String[] args) {
+        GetMin_Stack stack1 = new GetMin_Stack();
+        stack1.push(3);
+        System.out.println(stack1.getMin());
+        stack1.push(4);
+        System.out.println(stack1.getMin());
+        stack1.push(1);
+        System.out.println(stack1.getMin());
+        System.out.println(stack1.pop());
+        System.out.println(stack1.getMin());
+    }
+
 }

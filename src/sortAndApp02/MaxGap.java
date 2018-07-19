@@ -15,7 +15,7 @@ public class MaxGap {
     /**
      * 对数组arr排序后，找到相邻两数的最大差值
      *
-     * @param arr
+     * @param arr 待操作数组
      */
     public static int findMaxGap(int[] arr) {
         if (arr == null || arr.length == 1) {
@@ -37,7 +37,7 @@ public class MaxGap {
         boolean[] hasNum = new boolean[arrayLen + 1];//标记每个桶有没有进过数，哪些是空桶
         int[] mins = new int[arrayLen + 1];//记录每个桶的最小值
         int[] maxs = new int[arrayLen + 1];//记录每个桶的最大值
-        int n = 0; //桶号
+        int n; //桶号
 
         //遍历一遍数组，判断数组中的元素分别属于哪个桶，然后更新对应桶的信息（hasNum,mins,maxs）
         for (int i = 0; i < arrayLen; i++) {

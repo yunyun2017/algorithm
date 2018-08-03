@@ -1,4 +1,4 @@
-package practice05;
+package binaryTree02;
 
 import practice02.MaxGap;
 

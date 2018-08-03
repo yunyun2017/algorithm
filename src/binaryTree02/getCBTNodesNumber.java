@@ -1,4 +1,4 @@
-package practice05;
+package binaryTree02;
 
 /**
  * 题目：已知一棵完全二叉树， 求其节点的个数

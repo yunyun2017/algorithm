@@ -8,7 +8,7 @@ public class selectionSort {
      *
      * @param arr
      */
-    public static void insertSort(int[] arr){
+    public static void selectSort(int[] arr){
 
         if(arr == null || arr.length==1){
             //数组为空或者只有一个元素,不用排序
@@ -43,6 +43,6 @@ public class selectionSort {
 
     public static void main(String[] args) {
         int[] arr = {3,2,5,6,3,1,8,0,9,7};
-        insertSort(arr);
+        selectSort(arr);
     }
 }

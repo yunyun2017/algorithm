@@ -1,7 +1,5 @@
 package binaryTree02;
 
-import practice02.MaxGap;
-
 /**
  * 题目：判断一棵二叉树是否是平衡二叉树
  * 平衡二叉树：一颗树中任何一棵子树的左右子树的高度差绝对值不大于1

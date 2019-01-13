@@ -1,4 +1,4 @@
-package 剑指offer;
+package 剑指offer.no1_10;
 
 /**
  * 01 二维数组中的查找

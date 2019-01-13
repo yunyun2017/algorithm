@@ -1,7 +1,5 @@
-package 剑指offer;
+package 剑指offer.no1_10;
 
-
-import binaryTree.BinaryTreeTraverse;
 
 /**
  * 首先想到的就是用递归来实现，递归建左右子树，然后再加上根节点，完成这棵树的建立

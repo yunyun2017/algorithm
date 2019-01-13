@@ -1,4 +1,4 @@
-package 剑指offer;
+package 剑指offer.no1_10;
 
 import java.util.Stack;
 

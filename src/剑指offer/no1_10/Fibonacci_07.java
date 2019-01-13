@@ -1,4 +1,4 @@
-package 剑指offer;
+package 剑指offer.no1_10;
 
 public class Fibonacci_07 {
     public int Fibonacci(int n) {

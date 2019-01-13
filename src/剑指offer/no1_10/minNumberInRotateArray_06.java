@@ -1,4 +1,4 @@
-package 剑指offer;
+package 剑指offer.no1_10;
 
 /**
  * 思路一：用两个指针，一个指向数组第一个元素，一个指向数组最后一个元素，然后两个指针分别往数组中间移动；
@@ -12,7 +12,6 @@ public class minNumberInRotateArray_06 {
         if (array.length == 0) {
             return 0;
         }
-
 //        int lastMin = array [array.length-1];
 //        int i ,j;
 //        for(i = 0,j = array.length-1;i< array.length&&j>=0;i++,j--){
@@ -65,7 +64,7 @@ public class minNumberInRotateArray_06 {
     }
 
     public static void main(String[] args) {
-        int[] array = {1, 0, 1, 1, 1};
+        int[] array = {3,4,5,1,2};
 //        int[] array1 = {1, 1, 1, 0, 1};
         int[] array1 = {};
 

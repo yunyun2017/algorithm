@@ -1,15 +1,7 @@
-package 剑指offer;
+package 剑指offer.no1_10;
 
 import java.util.ArrayList;
-
-class ListNode {
-    int val;
-    ListNode next = null;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-}
+import 剑指offer.ListNode;
 
 /**
  * 1、遍历一遍链表，把每个节点放入栈中，然后把栈里面的所有元素都pop出来，得到一个从尾到头的链表

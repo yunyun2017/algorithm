@@ -1,4 +1,4 @@
-package 剑指offer;
+package 剑指offer.no1_10;
 
 public class JumpFloor_08 {
     public int JumpFloor(int target) {

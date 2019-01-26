@@ -19,7 +19,7 @@ public class classicQuickSort {
             return;
         }
 
-        //找到 存放划分点 的位置
+        //找到 存放划分点 的位置，即大于队列的第一个元素
         int p = partition(arr, low, high);
          /* 找到存放划分点的位置后，就要把划分点交换到它的正确位置上来，然后在将划分点左边和划分点右边进行快排。
          如果不是这个顺序，则最后结果是不正确的
@@ -33,7 +33,7 @@ public class classicQuickSort {
     }
 
     public static int partition(int[] arr, int low, int high) {
-        int less = low - 1;
+        int less = low - 1;//指向小于比较点队列的最后一个值
         int cur = low;
 
         while (cur < high) {

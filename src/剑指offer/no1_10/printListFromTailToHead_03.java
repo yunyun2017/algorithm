@@ -1,7 +1,7 @@
 package 剑指offer.no1_10;
 
 import java.util.ArrayList;
-import 剑指offer.ListNode;
+import 剑指offer.commonWidgets.ListNode;
 
 /**
  * 1、遍历一遍链表，把每个节点放入栈中，然后把栈里面的所有元素都pop出来，得到一个从尾到头的链表

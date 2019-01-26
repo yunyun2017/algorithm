@@ -1,4 +1,4 @@
-package 剑指offer;
+package 剑指offer.commonWidgets;
 
 public class TreeNode {
     public int val = 0;

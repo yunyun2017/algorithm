@@ -1,6 +1,6 @@
 package 剑指offer.no11_20;
 
-import 剑指offer.ListNode;
+import 剑指offer.commonWidgets.ListNode;
 
 import java.util.Stack;
 

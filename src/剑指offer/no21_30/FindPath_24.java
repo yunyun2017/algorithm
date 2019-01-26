@@ -1,6 +1,6 @@
 package 剑指offer.no21_30;
 
-import 剑指offer.TreeNode;
+import 剑指offer.commonWidgets.TreeNode;
 
 import java.util.ArrayList;
 

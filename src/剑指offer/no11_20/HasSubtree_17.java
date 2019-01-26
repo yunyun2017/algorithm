@@ -1,7 +1,6 @@
 package 剑指offer.no11_20;
 
-import sun.reflect.generics.tree.Tree;
-import 剑指offer.TreeNode;
+import 剑指offer.commonWidgets.TreeNode;
 
 public class HasSubtree_17 {
     public boolean HasSubtree(TreeNode root1, TreeNode root2) {

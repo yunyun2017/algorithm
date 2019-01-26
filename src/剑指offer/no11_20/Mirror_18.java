@@ -1,6 +1,6 @@
 package 剑指offer.no11_20;
 
-import 剑指offer.TreeNode;
+import 剑指offer.commonWidgets.TreeNode;
 
 public class Mirror_18 {
     public TreeNode Mirror(TreeNode root) {

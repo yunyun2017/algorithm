@@ -35,10 +35,11 @@ public class heapSort {
     }
 
     /**
-     * 将数组arr中0-heapsize的元素调整成大根堆（从上往下调整）
+     * 将数组arr中index-heapsize的元素调整成大根堆（从上往下调整）
      *
      * @param arr
      * @param heapSize
+     * @param index
      */
     public static void heapify(int[] arr, int index, int heapSize) {
         int left = index * 2 + 1;
@@ -85,7 +86,7 @@ public class heapSort {
     }
 
 
-    //    public static void main(String[] args) {
+//        public static void main(String[] args) {
 //        int[] arr = {1, 3, 2, 0, 5, 4};
 //        heapSort(arr);
 //
